@@ -8,13 +8,18 @@ public class MyController {
 
         @GetMapping("/")
         public String display(){
-            return "Hello Spring Boot";
+            return "Hello Mayochiki";
 
         }
 
         @GetMapping("about")
         public String about(){
             return "เกี่ยวกับเรา";
+
+        }
+        @GetMapping("api")
+        public String api(){
+            return "Test API";
 
         }
 }
